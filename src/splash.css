@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Estilos para a tela de Splash */
+.splash-wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.splash-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    height: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.splash-image {
+    margin-top: 4rem;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #f9e44c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.splash-image img {
+    width: 80%;
+    height: auto;
+}
+
+.splash-text {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.splash-text h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #2e2e2e;
+}
+
+.splash-text p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+}
+
+.get-started-btn {
+    background-image: linear-gradient(to right bottom, #87b4f8, #74abeb, #60a3de, #4d9ad1, #3991c3);
+    color: #fff;
+    font-weight: 600;
+    padding: 1rem 5rem;
+    border-radius: 50px;
+    text-decoration: none;
+    margin-bottom: 3rem;
+    font-size: 1.2rem;
+    transition: all 0.3s;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.get-started-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsividade para dispositivos móveis */
+@media (min-width:768px){
+    .wrapper{
+        height: 50rem;
+        width: 25rem;
+        border-radius: 40px;
+        border: 10px solid #2e2e2e;
+    }
+}
